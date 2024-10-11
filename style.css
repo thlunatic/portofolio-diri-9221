@@ -1,0 +1,57 @@
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+  }
+   .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #084a11;
+  }
+  
+  .menu li{
+    float: left;
+  }
+  
+  .menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .menu   li a:hover{
+    background-color: #184124;
+  }
+
+  article p{
+    font-family: 'Garamond'; font-size: 20px;
+  }
+
+  section p{
+    font-family: "Lucida Console", "Courier New", monospace; font-size: 16px;
+  }
+
+  .isi img{
+    border-radius: 50%;
+  }
+
+.isi{
+  text-align: center;
+}
+
+.footer{
+  background-color: #084a11;
+  color: white; 
+  text-align: center;
+  padding: 2px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
